@@ -14,7 +14,7 @@
 <h1>Zoho.</h1><br />
 <h3>A central hub where teams can work, pal.<br />
 and achieve amazing things together.</h3>
-<picture><img src="image.PNG" alt"" class="responsive"></picture>
+<picture><img src="img/image.PNG" alt"" class="responsive"></picture>
 </div>
 <div class="droite">
 <div class="select_ligne">
