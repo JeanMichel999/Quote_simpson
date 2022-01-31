@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Edition999</title>
+</head>
+
+<body>
+    <!-- menu -->
+    <div class="menu">
+        <!-- Lien vers le menu : https://www.cssportal.com/css3-menu-generator/-->
+        <nav id="menu">
+            <input type="checkbox" id="responsive-menu"><label></label>
+            <ul>
+                <li><a class="dropdown-arrow" href="#">Notre catalogue</a>
+                    <ul class="sub-menus">
+                        <li><a href="rubrique.html">Littérature *</a></li>
+                        <li><a href="erotique.html" onclick="verifAge()">Erotique *</a></li>
+                    </ul>
+                </li>
+                <li><a class="dropdown-arrow" href="#">Pour le lecteur</a>
+                    <ul class="sub-menus">
+                        <li><a href="rubrique.html">Lire gratuitement un livre</a></li>
+                        <li><a href="rubrique.html">Nos ebooks les plus téléchargés</a></li>
+                        <li><a href="rubrique.html">Les coups de coeur de la semaine</a> </li>
+                    </ul>
+                </li>
+                <li><a class="dropdown-arrow" href="rubrique.html">Pour les auteurs</a>
+                    <ul class="sub-menus">
+                        <li><a href="rubrique.html">Publier gratuitement son livre</a></li>
+                        <li><a href="rubrique.html">Vos témoignages</a></li>
+                        <li><a href="rubrique.html">Ajouter votre interview</a> </li>
+                        <li><a href="#rubrique.html">Les coups de coeurs</a></li>
+                    </ul>
+                </li>
+                <li><a class="dropdown-arrow" href="#">A propos</a>
+                    <ul class="sub-menus">
+                        <li><a href="rubrique.html">Ebooks gratuits</a></li>
+                        <li><a href="rubrique.html">On parle de nous</a></li>
+                        <li><a href="rubrique.html">Le Forum</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact.html">Nous contacter *</a> </li>
+                <li><a href="http://">A paraitre</a></li>
+                <li><a href="http://">Le Forum</a></li>
+                <li><a href="http://">Besoin d"aide</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="container">
+        <header class="header">
+            <!-- haut de page -->
+            <section id="haut" class="flex">
+                <!-- logo -->
+                <div class="logo" alt="Edition999">
+                    <img src="img/logo.jpg">
+                </div>
+                <!-- rechercher -->
+                <div class="rechercher" alt="rechercher un livre, un auteur...">
+                    <script async src="https://cse.google.com/cse.js?cx=010652756669699993742:mfrbkcywt-i"></script>
+                    <div class="gcse-search"> </div>
+                </div>
+                <!-- publier gratuitement -->
+                <div class="publier" alt="Publier gratuitement son livre">
+                    <a href="#" class="bouton orange">Vous êtes auteur ? <br />Publier gratuitement son livre</a>
+                </div>
+                <a href="login.html" class="se_connecter"><img src="img/icon.png" alt="se connecter"></a>
+            </section>
+        </header>
+    </div>
+    <!-- menu -->
+    <div class="container">
+        <section id="rubrique">
+            <div class="ariane">
+                <a href="sommaire.html" alt="Accueil">Accueil</a> | <a href="rubrique.html">Littérature</a>
+            </div>
+
+
+            <section id="nouveautes_et_actualites">
+                <h2 class="nouveautes rose">Erotique</h2>
+                <h3>E-books érotiques gratuits à lire pour découvrir avec sensualité, une littérature spécialisée et
+                    pleines de chaudes sensations destinés à un public averti. Livres interdits -18 ans</h3>
+                <h4>
+                    Les corps et l’amour ont fourni à la littérature de magnifiques pages brûlantes et sensuelles. On
+                    pense à L’Amant de lady Chatterley, Belle de jour, Fanny Hill ou Histoire d’O. Des livres érotiques
+                    respectés maintenant comme une littérature qui n’est plus sous le manteau, mais se prête, s’échange
+                    et se partage. Découvrez des textes coquins, des corps avec de petites lingeries fines, des
+                    situations parfois grivoises et pleine de voluptés, d’autres fois romantiques ou excitantes, avec
+                    toujours de une sensualité sexy qui vous feront rougir les joues des femmes et des hommes.</h4>
+                <div class="livres">
+
+
+                    <div class="livre" id="livre2">
+                        <div class="entete_livre">
+                            <a href="#" onclick="verifAge()" title="Oie pas vraiment blanche">
+                                <picture><img src="img/oie.jpg" alt="Oie pas vraiment blanche" class="couverture">
+                                </picture>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="livre" id="livre1">
+                        <div class="entete_livre">
+                            <a href="article.html" title="Les sorcières de Navarre">
+                                <a href="#" onclick="verifAge()" title="Oie pas vraiment blanche"></a>
+                                <picture><img src="img/gus.jpg" alt="Les sorcières de Navarre" class="couverture">
+                                </picture>
+                            </a>
+                        </div>
+                    </div>
+
+
+
+
+
+                    <div class="livre" id="livre3">
+                        <div class="entete_livre">
+                            <a href="#" onclick="verifAge()" title="Oie pas vraiment blanche"></a>
+                            <picture><img src="img/gus.jpg" alt="Une page de vie" class="couverture"></picture>
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="livre" id="livre4">
+                        <div class="entete_livre">
+                            <a href="#" onclick="verifAge()" title="Oie pas vraiment blanche"></a>
+                            <picture><img src="img/oie.jpg" alt="Grenadine la petite taupe" class="couverture">
+                            </picture>
+                            </a>
+
+                        </div>
+                    </div>
+            </section>
+    </div>
+
+
+
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Nous vous proposons sur Edition999 (V8) : 2957 ebooks gratuits - 3793 avis et 1120 auteurs. <br />
+            La dernière publication proposée est : Le déséquilibre des pouvoirs ?</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

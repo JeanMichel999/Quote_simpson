@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Votre livre</title>
+</head>
+
+<body>
+       <!-- menu -->
+       <div class="menu">
+        <!-- Lien vers le menu : https://www.cssportal.com/css3-menu-generator/-->
+    <nav id="menu">
+        <input type="checkbox" id="responsive-menu"><label></label>
+        <ul>
+            <li><a class="dropdown-arrow" href="#">Notre catalogue</a>
+                <ul class="sub-menus">
+                    <li><a href="rubrique.html">Littérature *</a></li>
+                    <li><a href="erotique.html" onclick="verifAge()">Erotique *</a></li>
+                </ul>
+            </li>
+            <li><a class="dropdown-arrow" href="#">Pour le lecteur</a>
+                <ul class="sub-menus">
+                    <li><a href="rubrique.html">Lire gratuitement un livre</a></li>
+                    <li><a href="rubrique.html">Nos ebooks les plus téléchargés</a></li>
+                    <li><a href="rubrique.html">Les coups de coeur de la semaine</a> </li>
+                </ul>
+            </li>
+            <li><a class="dropdown-arrow" href="rubrique.html">Pour les auteurs</a>
+                <ul class="sub-menus">
+                    <li><a href="rubrique.html">Publier gratuitement son livre</a></li>
+                    <li><a href="rubrique.html">Vos témoignages</a></li>
+                    <li><a href="rubrique.html">Ajouter votre interview</a> </li>
+                    <li><a href="#rubrique.html">Les coups de coeurs</a></li>
+                </ul>
+            </li>
+            <li><a class="dropdown-arrow" href="#">A propos</a>
+                <ul class="sub-menus">
+                    <li><a href="rubrique.html">Ebooks gratuits</a></li>
+                    <li><a href="rubrique.html">On parle de nous</a></li>
+                    <li><a href="rubrique.html">Le Forum</a></li>
+                </ul>
+            </li>
+            <li><a href="contact.html">Nous contacter *</a> </li>
+            <li><a href="http://">A paraitre</a></li>
+            <li><a href="http://">Le Forum</a></li>
+            <li><a href="http://">Besoin d"aide</a></li>
+        </ul>
+    </nav>  
+    </div>         
+<div class="container">     
+    <header class="header">
+        <!-- haut de page -->
+        <section id="haut" class="flex">
+            <!-- logo -->
+            <div class="logo" alt="Edition999">
+                <img src="img/logo.jpg"> 
+            </div>              
+            <!-- rechercher -->
+            <div class="rechercher" alt="rechercher un livre, un auteur...">
+                <script async src="https://cse.google.com/cse.js?cx=010652756669699993742:mfrbkcywt-i"></script>
+                <div class="gcse-search"> </div>
+            </div>
+            <!-- publier gratuitement -->
+            <div class="publier" alt="Publier gratuitement son livre">
+                <a href="#" class="bouton orange">Vous êtes auteur ? <br />Publier gratuitement son livre</a>
+            </div>
+            <a href="login.html" class="se_connecter"><img src="img/icon.png" alt="se connecter"></a>
+        </section>
+    </header>
+</div>
+  <!-- menu -->
+        <!-- Haut article -->
+        <div class="container">
+        <section id="presentation_livre">
+            <div class="ariane">
+                <a href="sommaire.html" alt="Accueil">Accueil</a> | <a href="rubrique.html">Littérature</a> | <span
+                    class="ariane_titre">Les
+                    sorcières des Navarre</span>
+            </div>
+
+            <div class="article">
+                <div class="couverture_article">
+                    <img src="img/sorcieres.jpg" alt="Les sorcières" class="couverture">
+                </div>
+
+                <div class="centre_article">
+                    <h1>Les sorcières de Navarre</h1>
+                    <h2>Philippe Wallon (Auteur)</h2>
+                    Nombre de pages : 111<br />
+                    <div class="coeur orange chiffre">Ce livre a été élu "Coup de cœur des lecteurs Edition999"
+                    </div>
+                    <!-- telechargemenr -->
+                    <div class="telecharger">
+
+                        <span class="pdf red gras">Télécharger PDF<br />
+                            <a href="pdf/anchetain.pdf"><img src="img/pdf.svg"></a><br />
+                            14
+                        </span>
+                        <span class="epub green gras">Télécharger Epub<br />
+                            <img src="img/epub.svg"><br />
+                            65
+                        </span>
+                        <span class="mobi orange gras">Télécharger Kindle<br />
+                            <img src="img/mobi.svg"><br />
+                            22
+                        </span>
+                    </div>
+                </div>
+
+                <div class="droite_article box_arrondi_ombre">
+                    <div class="chiffre">Nombre de lecture : <span class="gras">575</span> </div>
+
+
+                    <div class="chiffre">Résultat des votes : <span class="gras">4 /5 sur 4 votants</span></div>
+                    <div class="chiffre">Nombre de visites : <span class="gras">1197</span></div>
+                    <div class="chiffre">Nombre d'avis : <span class="gras">4</span></div>
+                    <h3 class="chiffre">Evaluer le livre</h3>
+                    <a href="#" class="bouton" style="margin-top: 5px;">J'aime</a>
+                    <a href="#" class="bouton">Je n'aime pas</a><br />
+                    <a href="#" class="bouton">Ajouter un commentaire</a>
+                </div>
+
+
+            </div>
+            <div class="descriptif box_arrondi_ombre">
+                <h2>Thème : Fantastique</h2>
+                ( Version du 5 décembre 2021 )</br>
+                <h3>La quatrième de couverture</h3>
+                Quand a été brûlée la dernière sorcière en France ? Dans les années 1200 ? Détrompez-vous, c’était
+                en 1670, sous Louis XIV. Il y a 300 ans, autant dire hier.
+                Le 24 juin, fête de Saint-Jean, un apprenti-tisserand, Jean-Jacques Bacqué, 16 ans, surgit à
+                Lahourcade (près de Pau), bien décidé à le purger de ses sorcières. Par un « voile noir » dans leurs
+                yeux, il en identifiera 195 dans ce minuscule village et 6.210 dans les 30 autour. Louis XIV s’en
+                émut. Colbert fit arrêter les procès, libérer celles qui n’avaient pas brûlé sur le bûcher,
+                emprisonner le jeune homme. Il prit, l’année suivante (octobre 1671) un édit mettant fin aux
+                affaires de sorcellerie en France.
+                C’est ce qu’on dit, car on n’en sait trop rien. Tout a disparu dans l’incendie du Parlement de Pau.
+                Nous avons puisé aux meilleures sources pour reconstituer l’histoire. Elle est racontée par les
+                sorcières, celles qui maîtrisaient le feu et bien d’autres choses. Elles donnent même leurs formules
+                magiques, authentiques. Mais ne les utilisez pas, vous feriez comme Les Visiteurs. Vous iriez je ne
+                sais où… je ne sais quand.
+                <h3>La première page</h3>
+                Madame, votre fille est en bas, elle attend à la porte.
+                - Eh bien, Madeleine, dites-lui d’entrer !
+                - C’est, Madame… qu’elle n’est point seule.
+                - Qu’elle vienne avec cette personne ! répond la mère sans lever les yeux de ce difficile point de
+                broderie qu’elle voudrait bien achever. Soudain, elle réalise et fixe sa servante ; celle-ci a le
+                visage défait, un éclat de mort dans le regard.
+                - Madeleine… qu’y a-t-il ?
+                L’autre baisse la tête sans répondre. La mère se lève en titubant. Elle se reprend, lisse sa jupe et
+                son corsage, rajuste une mèche de cheveux qui s’était échappé de son chignon strict et com-mence à
+                descendre l’escalier. En bas, la porte est ouverte et l’on voit l’ombre de silhouettes.
+                À peine les deux femmes sont-elles en bas qu’un petit homme noir déclame :
+                - Vous êtes bien Guichène de Peyrignan, veuve de Jacob Bisclavret et mère d’Adeline du même nom ?
+                La mère le toise mais l’autre continue sans attendre ni même la saluer :
+                - Je viens vous signifier, Madame, le jugement qui a été rendu ce matin par le Tribunal. Je suis
+                chargé de vous le lire.
+                <br />
+            </div>
+
+
+
+
+            <div class="flex biographie box_arrondi_ombre">
+                <div class="biographie__container">
+                    <h2 class="biographie__title">Biographie de Philippe Wallon</h2>
+
+                    <h4 class="biographie__ambassadeur">Ambassadeur Edition999</h4>
+                    <span class="biographie__title">Psychiatre-Psychothérapeute Ex-Chargé de recherche INSERM Je
+                        suis tout jeune retraité, après avoir
+                        exercé la psychia-trie pendant 40 ans. Je ne suis pas inactif, car nous diffu-sons un
+                        logiciel de
+                        diagnostic automatique en psychiatrie, « Elian », via une petite SARL, la Seldage, un centre
+                        de
+                        recherche privé, avec une équipe dynamique et jeune, fonc-tionnant sur un mode collégial
+                        très
+                        souple. Après avoir fait mes études de médecine à Paris, j’ai fait mon Internat de
+                        psychiatrie, pour
+                        partie en Guadeloupe (...)</span>
+                    <h4 class="biographie__interview">Lire son interview</h4>
+                </div>
+                <div class="biographie__container--photo">
+                    <figure><img src="img/wallon.jpg" class="biographie__photo"></figure>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="container">
+        <!-- Vos commentaires-->
+        <section id="vos_commentaires" class="populaire">
+            <h2 class="nouveautes">Vos commentaires</h2>
+            <div class="flex">
+                <div class="commentaires__bloc box_arrondi_ombre flex-basis: 30%;">
+                    Jean-Michel<br />
+                    <p>Une nouvelle version retravaillée est disponible dès maintenant. Merci à l’auteure.
+                        Jean-Michel</p>
+                        <a href="#" class="bouton orange">Répondre à cette critique</a>
+                </div>
+
+                <div class="commentaires__bloc box_arrondi_ombre flex-basis: 30%;">
+                    Corradetti<br />
+                    <p>J’ai bien aimé. Merci.</p>
+                    <a href="#" class="bouton orange">Répondre à cette critique</a>
+                </div>
+
+
+                <div class="commentaires__bloc box_arrondi_ombre flex-basis: 30%;">
+                    Corradetti<br />
+                    <p>Très bien le polar. Un bon policier.</p>
+                    <a href="#" class="bouton orange">Répondre à cette critique</a>
+                </div>
+
+
+
+                <div class="commentaires__bloc box_arrondi_ombre flex-basis: 30%;">
+                    Solange T<br />
+                    <p> C’est très drôle, hé bon sang nous en avons besoin, d’humour D’Amour aussi d’ailleurs, fin pas
+                        d’amour d’ailleurs mais d’amour ICI, non ?</p>
+                    <a href="#" class="bouton orange">Répondre à cette critique</a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+
+    <div class="container">
+        <section id="les_plus_populaire" class="populaire">
+            <h2 class="nouveautes">Du même auteur</h2>
+            <div class="livres">
+                <div class="livre">
+                    <div class="entete_livre">
+                        <img src="img/sabbat.jpg" alt="Une Tisane pour L’Enfer" class="couverture">
+                    </div>
+                    <div class=titre_livre>
+                        <h3>Le Dernier Sabbat</h3>
+                    
+                        <span class="presentation">
+                            L’aventure débute à Montréal, de nos jours. Henri de Voragine rencontre Adeline Bisclavret, qu’il ne connaissait pas. Ils éprouvent aussitôt une impression de « déjà vu » et sont transportés dans une vision, trois siècles auparavant dans une auberge près du Brocken, le mont Chauve où l’on célèbre la Walpurgis Nacht, la fête des sorcières. Adeline pénètre les mystères de ce Dernier Sabbat, qui se serait tenu le 30 avril 1667 et où elle aurait rencontré le Diable. Elle n’en croit rien. Sauf qu’à leur table, à Montréal, s’installe un curieux visiteur, qui n’est autre que…
+                            Cette histoire m’a été donnée. Très surpris, j’appelle un collègue, historien, spécialiste, qui me dit : « Va voir sur place. Tu vas entrer dans le monde du rêve, tu dois traverser une rivière. Comme tu vas rencontrer le Diable, tu dois aller toujours à gauche. » J’ai pris mon courage à deux mains et, un jour d’un mois d’août, je suis allé à Bad Lauterberg, nom actuel de la ville de mon histoire. J’ai retrouvé l’auberge où Henri et Adeline s’étaient rencontrés, il y a trois cents ans… Tout y était, même les bois qui tenaient les cloisons à l’époque. J’y étais donc bien venu, moi aussi, ce 30 avril, lors du Dernier Sabbat. Revenant à ma voiture, je découvre que j’avais franchi une rivière et j’avais tourné à gauche.
+                        </span>
+                    </div>
+                </div>
+                <div class="livre">
+                    <div class="entete_livre">
+                        <img src="img/covid.jpg" alt="Coeur de pierre" class="couverture">
+                    </div>
+                    <div class=titre_livre>
+                        <h3>Covid 19</h3>
+                      
+                        <span class="presentation">
+                            L’épidémie au Covid-19 s’avère être une catastrophe mondiale, non pas au niveau des effets du virus, si négligeables qu’ils ne devraient pas vraiment influer les statistiques de mortalité, mais par les confinements décidés partout sur la planète et qui a touché 81 % de la population active mondiale, soit 2,7 milliards de personnes. Comment est-on arrivé à faire un drame planétaire d’une maladie bénigne ? Sans évaluation du bénéfice-risque, la plupart des pays du monde ont décrété l’arrêt de toute activité économique.
+                            Or la moyenne d’âge des personnes décédées de Covid-19 dans les pays développés est d’environ 83 ans.
+                            À cet âge, on ne travaille plus (en général). La mortalité est équivalente, que le pays soit confiné ou pas, ce qui ne fait que confirmer le passé, depuis l’épidémie H1N1, où on l’avait déjà constaté
+                        </span>
+                    </div>
+                </div>
+
+                <div class="livre">
+                    <div class="entete_livre">
+                        <img src="img/sabbat.jpg" alt="" class="couverture">
+                    </div>
+                    <div class=titre_livre>
+                        <h3>Le Dernier Sabbat</h3>
+                    
+                        <span class="presentation">
+                            L’aventure débute à Montréal, de nos jours. Henri de Voragine rencontre Adeline Bisclavret, qu’il ne connaissait pas. Ils éprouvent aussitôt une impression de « déjà vu » et sont transportés dans une vision, trois siècles auparavant dans une auberge près du Brocken, le mont Chauve où l’on célèbre la Walpurgis Nacht, la fête des sorcières. Adeline pénètre les mystères de ce Dernier Sabbat, qui se serait tenu le 30 avril 1667 et où elle aurait rencontré le Diable. Elle n’en croit rien. Sauf qu’à leur table, à Montréal, s’installe un curieux visiteur, qui n’est autre que…
+                            Cette histoire m’a été donnée. Très surpris, j’appelle un collègue, historien, spécialiste, qui me dit : « Va voir sur place. Tu vas entrer dans le monde du rêve, tu dois traverser une rivière. Comme tu vas rencontrer le Diable, tu dois aller toujours à gauche. » J’ai pris mon courage à deux mains et, un jour d’un mois d’août, je suis allé à Bad Lauterberg, nom actuel de la ville de mon histoire. J’ai retrouvé l’auberge où Henri et Adeline s’étaient rencontrés, il y a trois cents ans… Tout y était, même les bois qui tenaient les cloisons à l’époque. J’y étais donc bien venu, moi aussi, ce 30 avril, lors du Dernier Sabbat. Revenant à ma voiture, je découvre que j’avais franchi une rivière et j’avais tourné à gauche.
+                        </span>
+                    </div>
+                </div>
+
+                <div class="livre">
+                    <div class="entete_livre">
+                        <img src="img/covid.jpg" alt="Gus et ses modèles" class="couverture">
+                    </div>
+                    <div class=titre_livre>
+                        <h3>Covid 19</h3>
+                      
+                        <span class="presentation">
+                            L’épidémie au Covid-19 s’avère être une catastrophe mondiale, non pas au niveau des effets du virus, si négligeables qu’ils ne devraient pas vraiment influer les statistiques de mortalité, mais par les confinements décidés partout sur la planète et qui a touché 81 % de la population active mondiale, soit 2,7 milliards de personnes. Comment est-on arrivé à faire un drame planétaire d’une maladie bénigne ? Sans évaluation du bénéfice-risque, la plupart des pays du monde ont décrété l’arrêt de toute activité économique.
+                            Or la moyenne d’âge des personnes décédées de Covid-19 dans les pays développés est d’environ 83 ans.
+                            À cet âge, on ne travaille plus (en général). La mortalité est équivalente, que le pays soit confiné ou pas, ce qui ne fait que confirmer le passé, depuis l’épidémie H1N1, où on l’avait déjà constaté
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Nous vous proposons sur Edition999 (V8) : 2957 ebooks gratuits - 3793 avis et 1120 auteurs. <br />
+            La dernière publication proposée est : Le déséquilibre des pouvoirs ?</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

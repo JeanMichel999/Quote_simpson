@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Se connecter</title>
+</head>
+
+<body>
+    <!-- menu -->
+    <div class="menu">
+        <!-- Lien vers le menu : https://www.cssportal.com/css3-menu-generator/-->
+    <nav id="menu">
+        <input type="checkbox" id="responsive-menu"><label></label>
+        <ul>
+            <li><a class="dropdown-arrow" href="#">Notre catalogue</a>
+                <ul class="sub-menus">
+                    <li><a href="rubrique.html">Littérature *</a></li>
+                    <li><a href="erotique.html" onclick="verifAge()">Erotique *</a></li>
+                </ul>
+            </li>
+            <li><a class="dropdown-arrow" href="#">Pour le lecteur</a>
+                <ul class="sub-menus">
+                    <li><a href="rubrique.html">Lire gratuitement un livre</a></li>
+                    <li><a href="rubrique.html">Nos ebooks les plus téléchargés</a></li>
+                    <li><a href="rubrique.html">Les coups de coeur de la semaine</a> </li>
+                </ul>
+            </li>
+            <li><a class="dropdown-arrow" href="rubrique.html">Pour les auteurs</a>
+                <ul class="sub-menus">
+                    <li><a href="rubrique.html">Publier gratuitement son livre</a></li>
+                    <li><a href="rubrique.html">Vos témoignages</a></li>
+                    <li><a href="rubrique.html">Ajouter votre interview</a> </li>
+                    <li><a href="#rubrique.html">Les coups de coeurs</a></li>
+                </ul>
+            </li>
+            <li><a class="dropdown-arrow" href="#">A propos</a>
+                <ul class="sub-menus">
+                    <li><a href="rubrique.html">Ebooks gratuits</a></li>
+                    <li><a href="rubrique.html">On parle de nous</a></li>
+                    <li><a href="rubrique.html">Le Forum</a></li>
+                </ul>
+            </li>
+            <li><a href="contact.html">Nous contacter *</a> </li>
+            <li><a href="http://">A paraitre</a></li>
+            <li><a href="http://">Le Forum</a></li>
+            <li><a href="http://">Besoin d"aide</a></li>
+        </ul>
+    </nav>  
+    </div>         
+<div class="container">     
+    <header class="header">
+        <!-- haut de page -->
+        <section id="haut" class="flex">
+            <!-- logo -->
+            <div class="logo" alt="Edition999">
+                <img src="img/logo.jpg"> 
+            </div>              
+            <!-- rechercher -->
+            <div class="rechercher" alt="rechercher un livre, un auteur...">
+                <script async src="https://cse.google.com/cse.js?cx=010652756669699993742:mfrbkcywt-i"></script>
+                <div class="gcse-search"> </div>
+            </div>
+            <!-- publier gratuitement -->
+            <div class="publier" alt="Publier gratuitement son livre">
+                <a href="#" class="bouton orange">Vous êtes auteur ? <br />Publier gratuitement son livre</a>
+            </div>
+            <a href="login.html" class="se_connecter"><img src="img/icon.png" alt="se connecter"></a>
+        </section>
+    </header>
+</div>
+  <!-- menu -->
+    <div class="container">
+        <!-- connexion -->
+        <!-- Haut article -->
+        <section id="connexion">
+            <div class="ariane">
+                <a href="sommaire.html" alt="Accueil">Accueil</a> | <span class="ariane_titre">Se connecter</span>
+            </div>
+    </div>
+
+    <div class="container">
+    <div class="contact">
+        <label for="name">Nom d'utilisateur</label>
+        <input type="text" id="utilisateur" name="utilisateur" placeholder="Votre identifiant" required >
+        <label for="name">Mot de passe</label><br />
+        <input type="password" id="password" name="password" placeholder="Votre mot de passe" required >
+        <input type="submit" value="Envoyer">
+    </div>
+    </div>
+
+
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Nous vous proposons sur Edition999 (V8) : 2957 ebooks gratuits - 3793 avis et 1120 auteurs. <br />
+            La dernière publication proposée est : Le déséquilibre des pouvoirs ?</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

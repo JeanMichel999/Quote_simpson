@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Edition999</title>
+</head>
+
+<body>
+    <!-- menu -->
+    <div class="menu">
+        <!-- Lien vers le menu : https://www.cssportal.com/css3-menu-generator/-->
+    <nav id="menu">
+        <input type="checkbox" id="responsive-menu"><label></label>
+        <ul>
+            <li><a class="dropdown-arrow" href="#">Notre catalogue</a>
+                <ul class="sub-menus">
+                    <li><a href="rubrique.html">Littérature *</a></li>
+                    <li><a href="erotique.html" onclick="verifAge()">Erotique *</a></li>
+                </ul>
+            </li>
+            <li><a class="dropdown-arrow" href="#">Pour le lecteur</a>
+                <ul class="sub-menus">
+                    <li><a href="rubrique.html">Lire gratuitement un livre</a></li>
+                    <li><a href="rubrique.html">Nos ebooks les plus téléchargés</a></li>
+                    <li><a href="rubrique.html">Les coups de coeur de la semaine</a> </li>
+                </ul>
+            </li>
+            <li><a class="dropdown-arrow" href="rubrique.html">Pour les auteurs</a>
+                <ul class="sub-menus">
+                    <li><a href="rubrique.html">Publier gratuitement son livre</a></li>
+                    <li><a href="rubrique.html">Vos témoignages</a></li>
+                    <li><a href="rubrique.html">Ajouter votre interview</a> </li>
+                    <li><a href="#rubrique.html">Les coups de coeurs</a></li>
+                </ul>
+            </li>
+            <li><a class="dropdown-arrow" href="#">A propos</a>
+                <ul class="sub-menus">
+                    <li><a href="rubrique.html">Ebooks gratuits</a></li>
+                    <li><a href="rubrique.html">On parle de nous</a></li>
+                    <li><a href="rubrique.html">Le Forum</a></li>
+                </ul>
+            </li>
+            <li><a href="contact.html">Nous contacter *</a> </li>
+            <li><a href="http://">A paraitre</a></li>
+            <li><a href="http://">Le Forum</a></li>
+            <li><a href="http://">Besoin d"aide</a></li>
+        </ul>
+    </nav>  
+    </div>         
+<div class="container">     
+    <header class="header">
+        <!-- haut de page -->
+        <section id="haut" class="flex">
+            <!-- logo -->
+            <div class="logo" alt="Edition999">
+                <img src="img/logo.jpg"> 
+            </div>              
+            <!-- rechercher -->
+            <div class="rechercher" alt="rechercher un livre, un auteur...">
+                <script async src="https://cse.google.com/cse.js?cx=010652756669699993742:mfrbkcywt-i"></script>
+                <div class="gcse-search"> </div>
+            </div>
+            <!-- publier gratuitement -->
+            <div class="publier" alt="Publier gratuitement son livre">
+                <a href="#" class="bouton orange">Vous êtes auteur ? <br />Publier gratuitement son livre</a>
+            </div>
+            <a href="login.html" class="se_connecter"><img src="img/icon.png" alt="se connecter"></a>
+        </section>
+    </header>
+</div>
+  <!-- menu -->
+    <div class="container">
+        <section id="rubrique">
+            <div class="ariane">
+                <a href="sommaire.html" alt="Accueil">Accueil</a> | <a href="rubrique.html">Littérature</a>
+            </div>
+            <section id="nouveautes_et_actualites">
+                <h2 class="nouveautes">Litterature</h2>
+                <h3>Ebooks de littérature gratuits de qualité pour que le lecteur soit emporté dans un univers de mots et de phrases uniques.</h3>
+                <h4>Le numérique et les livres proposés dans cette rubrique vous permettront d’entrer dans cette civilisation moderne littéraire, qui fait que l’objet littéraire dépasse toutes les frontières.
+                    Le partage, quelle que soit la méthode pour le raconter, immerge le lecteur dans des lieux où les distances n’existent plus, les modèles littéraires sont dépassés. L’auteur peut se permettre toutes les folies avec ses mots. Ses idées s’envolent, pour que chacun puisse savourer ou s’extraire du quotidien qui l’entoure.
+                    La littérature, Edition999, le lecteur, l’auteur et les mots sont mis en valeur ici, pour le plus grand plaisir des livres.</h4>
+                <div class="livres">
+                    <div class="livre" id="livre1">
+                        <div class="entete_livre">
+                            <a href="article.html" title="Les sorcières de Navarre">
+                                <picture><img src="img/sorcieres.jpg" alt="Les sorcières de Navarre" class="couverture">
+                                </picture>
+                            </a>
+                        </div>
+                    </div>
+
+
+
+                    <div class="livre" id="livre3">
+                        <div class="entete_livre">
+                            <picture><img src="img/une_page.jpg" alt="Une page de vie" class="couverture"></picture>
+                        </div>
+
+                    </div>
+
+                    <div class="livre" id="livre4">
+                        <div class="entete_livre">
+                            <picture><img src="img/grenadine.jpg" alt="Grenadine la petite taupe" class="couverture">
+                            </picture>
+                        </div>
+                    </div>
+
+                    <div class="livre" id="livre5">
+                        <div class="entete_livre">
+                            <picture><img src="img/coeur.jpg" alt="Grenadine la petite taupe" class="couverture">
+                            </picture>
+                        </div>
+                    </div>
+
+
+                    <div class="livre" id="livre6">
+                        <div class="entete_livre">
+                            <picture><img src="img/meurtre.jpg" alt="Grenadine la petite taupe" class="couverture">
+                            </picture>
+                        </div>
+                    </div>
+
+
+
+                    </div>
+                </div>
+            </section>
+    </div>
+
+
+
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Nous vous proposons sur Edition999 (V8) : 2957 ebooks gratuits - 3793 avis et 1120 auteurs. <br />
+            La dernière publication proposée est : Le déséquilibre des pouvoirs ?</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

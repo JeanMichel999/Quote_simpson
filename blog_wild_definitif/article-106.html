@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Votre livre</title>
+</head>
+
+<body>
+    <!-- menu -->
+    <div class="menu">
+        <!-- Lien vers le menu : https://www.cssportal.com/css3-menu-generator/-->
+    <nav id="menu">
+        <input type="checkbox" id="responsive-menu"><label></label>
+        <ul>
+            <li><a class="dropdown-arrow" href="#">Notre catalogue</a>
+                <ul class="sub-menus">
+                    <li><a href="rubrique.html">Littérature *</a></li>
+                    <li><a href="erotique.html" onclick="verifAge()">Erotique *</a></li>
+                </ul>
+            </li>
+            <li><a class="dropdown-arrow" href="#">Pour le lecteur</a>
+                <ul class="sub-menus">
+                    <li><a href="rubrique.html">Lire gratuitement un livre</a></li>
+                    <li><a href="rubrique.html">Nos ebooks les plus téléchargés</a></li>
+                    <li><a href="rubrique.html">Les coups de coeur de la semaine</a> </li>
+                </ul>
+            </li>
+            <li><a class="dropdown-arrow" href="rubrique.html">Pour les auteurs</a>
+                <ul class="sub-menus">
+                    <li><a href="rubrique.html">Publier gratuitement son livre</a></li>
+                    <li><a href="rubrique.html">Vos témoignages</a></li>
+                    <li><a href="rubrique.html">Ajouter votre interview</a> </li>
+                    <li><a href="#rubrique.html">Les coups de coeurs</a></li>
+                </ul>
+            </li>
+            <li><a class="dropdown-arrow" href="#">A propos</a>
+                <ul class="sub-menus">
+                    <li><a href="rubrique.html">Ebooks gratuits</a></li>
+                    <li><a href="rubrique.html">On parle de nous</a></li>
+                    <li><a href="rubrique.html">Le Forum</a></li>
+                </ul>
+            </li>
+            <li><a href="contact.html">Nous contacter *</a> </li>
+            <li><a href="http://">A paraitre</a></li>
+            <li><a href="http://">Le Forum</a></li>
+            <li><a href="http://">Besoin d"aide</a></li>
+        </ul>
+    </nav>  
+    </div>         
+<div class="container">     
+    <header class="header">
+        <!-- haut de page -->
+        <section id="haut" class="flex">
+            <!-- logo -->
+            <div class="logo" alt="Edition999">
+                <img src="img/logo.jpg"> 
+            </div>              
+            <!-- rechercher -->
+            <div class="rechercher" alt="rechercher un livre, un auteur...">
+                <script async src="https://cse.google.com/cse.js?cx=010652756669699993742:mfrbkcywt-i"></script>
+                <div class="gcse-search"> </div>
+            </div>
+            <!-- publier gratuitement -->
+            <div class="publier" alt="Publier gratuitement son livre">
+                <a href="#" class="bouton orange">Vous êtes auteur ? <br />Publier gratuitement son livre</a>
+            </div>
+            <a href="login.html" class="se_connecter"><img src="img/icon.png" alt="se connecter"></a>
+        </section>
+    </header>
+</div>
+  <!-- menu -->
+        <!-- Haut article -->
+        <div class="container">
+        <section id="presentation_livre">
+            <div class="ariane">
+                <a href="sommaire.html" alt="Accueil">Accueil</a> | <a href="erotique.html">Erotique</a> | <span
+                    class="ariane_titre_rose "><strong> Oie pas vraiment blanche</strong></span>
+            </div>
+
+            <div class="article">
+
+                <div class="couverture_article">
+                    <img src="img/oie.jpg" alt="Les sorcières" class="couverture">
+                </div>
+
+                <div class="centre_article">
+                    <h1 class="rose">Oie pas vraiment blanche</h1>
+                    <h2 class="rose">Alfred Anchetain (Auteur)</h2>
+                    Nombre de pages : 111<br />
+                    <div class="rose chiffre ">Ce livre a été élu "Coup de cœur des lecteurs Edition999"</div>
+                    <div class="rose chiffre"><strong>Avertissement : des scènes ou des propos peuvent heurter la
+                            sensibilité des lecteurs</strong> </div>
+                    <!-- telechargemenr -->
+                    <div class="telecharger">
+
+                        <span class="pdf red gras">Télécharger PDF<br />
+                            <img src="img/pdf.svg"><br />
+                            14
+                        </span>
+                        <span class="epub green gras">Télécharger Epub<br />
+                            <img src="img/epub.svg"><br />
+                            65
+                        </span>
+                        <span class="mobi orange gras">Télécharger Kindle<br />
+                            <img src="img/mobi.svg"><br />
+                            22
+                        </span>
+                    </div>
+                </div>
+
+                <div class="droite_article box_arrondi_ombre">
+                    <div class="chiffre">Nombre de lecture : <span class="gras">565</span> </div>
+                    <div class="chiffre ">Résultat des votes : <span class="gras">4 /5 sur 4 votants</span></div>
+                    <div class="chiffre">Nombre de visites : <span class="gras">3197</span></div>
+                    <div class="chiffre">Nombre d'avis : <span class="gras">4</span></div>
+                    <h3 class="chiffre">Evaluer le livre</h3>
+                    <a href="#" class="bouton">J'aime</a>
+                    <a href="#" class="bouton">Je n'aime pas</a><br />
+                    <a href="#" class="bouton">Ajouter un commentaire</a>
+                </div>
+
+
+
+            </div>
+            <div class="descriptif box_arrondi_ombre">
+                <h2 class="rose">Thème : Erotique (interdit 18 ans)</h2>
+                <h4>( ( Version du 30 novembre 2021 ) )</h4>
+                <span class="rose">La quatrième de couverture</span> <br />
+                J’ai repris l’idée du film de Buñuel : une femme bourgeoise qui s’épanouit dans la prostitution. Pour
+                égayer ce thème, je l’ai situé dans un cadre « haut-de-gamme » avec des clients riches, patients,
+                inventifs voire peu favorisés par la nature. Sa compétence fait toujours des miracles… Mais elle joue
+                avec le feu, car le milieu médical est fait de requins, auxquels elle devra bientôt se confronter.
+
+                Béryl, 25 ans, au physique attractif, constate, après une soirée professionnelle où elle a été
+                abondamment courtisée, que sa vie de couple est un échec. Elle a épousé un homme, beau et chirurgien,
+                mais qui n’assure pas. Elle prend sa vie en main et cherche un travail. Faute de débouchés dans sa
+                région, elle commence au bas de l’échelle, bien décidée à faire feu de tout bois. Elle parvient, grâce à
+                sa force de persuasion sur un boss timide, à un poste de cheffe de projet. Mais elle attend davantage de
+                la vie. Un riche médecin, ami de son mari, lui révèle bientôt la valeur de ses charmes dans un cadre
+                intime et agréable.
+                <br />
+                <span class="rose">La première page</span><br />
+                Je suis vannée, il est plus d’une heure et demie du matin. Les deux extras sont parties, elles ont rangé la vaisselle dans les caisses pour que le loueur les reprenne. Elles ont mis les restes au frigo. La femme de ménage viendra tout nettoyer et enlever ces bouteilles qui encombrent la cuisine.
+La fête où nous avions réuni tous les correspondants de Mickael fut un bon moment. Nous le faisons une fois par trimestre, pour entretenir les liens. Même s’il est très habile, il a de la concurrence. Pour la chirurgie de la main, difficile, les gens ont tendance à monter sur Paris – ou même simplement à Caen. La clinique a une excellente réputation, mais l’hôpital draîne beaucoup. En plus, Mickael n’est pas là depuis très longtemps. Nous avons l’avantage du privé, mais il faut tenir la route. Pas facile.
+Tout le monde a remarqué ma robe, fendue assez haut, que j’ai achetée pour l’occasion. Quand je l’ai montrée à Mickael, pour voir si elle lui convenait, il n’a même pas remarqué que… je n’avais rien dessous. Il aurait dû me dire : « Habille-toi ! » Non, rien. Devant ses amis, j’ai failli la retirer, me montrer en tenue d’Eve, et dire : « Mon mari ne me touche plus ».
+             
+            </div>
+
+            <div class="flex biographie box_arrondi_ombre">
+                <div class="biographie__container">
+                    <h2 class="biographie__title rose">Biographie d'Alfred Anchetain</h2>
+
+                    <h4 class="biographie__ambassadeur">Ambassadeur Edition999</h4>
+                    <span class="biographie__titre">Je suis arrivé à la retraite. J’ai publié un certain nombre d’ouvrages sérieux chez des éditeurs classiques, et j’ai voulu changer. Je me suis lancé la rédaction de nouvelles érotiques. Je les ai fait lire à mon entourage. Silence total ! J’étais désespéré, car je m’étais beaucoup amusé à les écrire. Je (...)</span>
+                    <h4 class="biographie__interview">Lire son interview</h4>
+                </div>
+                <div class="biographie__container--photo">
+                    <figure><img src="img/inconnu.jpg" class="biographie__photo"></figure>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <div class="container">
+        <!-- Vos commentaires-->
+        <section id="vos_commentaires" class="populaire">
+            <h2 class="nouveautes rose">Vos commentaires</h2>
+            <div class="flex">
+                <div class="commentaires__bloc box_arrondi_ombre flex-basis: 30%;">
+                    Jean-Michel<br />
+                    <p>Une nouvelle version retravaillée est disponible dès maintenant. Merci à l’auteure.
+                        Jean-Michel</p>
+                        <a href="#" class="bouton orange">Répondre à cette critique</a>
+                </div>
+
+                <div class="commentaires__bloc box_arrondi_ombre flex-basis: 30%;">
+                    Corradetti<br />
+                    <p>J’ai bien aimé. Merci.</p>
+                    <a href="#" class="bouton orange">Répondre à cette critique</a>
+                </div>
+
+
+                <div class="commentaires__bloc box_arrondi_ombre flex-basis: 30%;">
+                    Corradetti<br />
+                    <p>Très bien le polar. Un bon policier.</p>
+                    <a href="#" class="bouton orange">Répondre à cette critique</a>
+                </div>
+
+
+
+                <div class="commentaires__bloc box_arrondi_ombre flex-basis: 30%;">
+                    Solange T<br />
+                    <p> C’est très drôle, hé bon sang nous en avons besoin, d’humour D’Amour aussi d’ailleurs, fin pas
+                        d’amour d’ailleurs mais d’amour ICI, non ?</p>
+                    <a href="#" class="bouton orange">Répondre à cette critique</a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <div class="container">
+        <section id="les_plus_populaire" class="populaire">
+            <h2 class="nouveautes">Du même auteur</h2>
+            <div class="livres">
+                <div class="livre">
+                    <div class="entete_livre">
+                        <img src="img/claire.jpg" alt="Une Tisane pour L’Enfer" class="couverture">
+                    </div>
+                    <div class=titre_livre>
+                        <h3>Ma rencontre avec Claire</h3>
+                    
+                        <span class="presentation">
+                            L’aventure débute à Montréal, de nos jours. Henri de Voragine rencontre Adeline Bisclavret, qu’il ne connaissait pas. Ils éprouvent aussitôt une impression de « déjà vu » et sont transportés dans une vision, trois siècles auparavant dans une auberge près du Brocken, le mont Chauve où l’on célèbre la Walpurgis Nacht, la fête des sorcières. Adeline pénètre les mystères de ce Dernier Sabbat, qui se serait tenu le 30 avril 1667 et où elle aurait rencontré le Diable. Elle n’en croit rien. Sauf qu’à leur table, à Montréal, s’installe un curieux visiteur, qui n’est autre que…
+                            Cette histoire m’a été donnée. Très surpris, j’appelle un collègue, historien, spécialiste, qui me dit : « Va voir sur place. Tu vas entrer dans le monde du rêve, tu dois traverser une rivière. Comme tu vas rencontrer le Diable, tu dois aller toujours à gauche. » J’ai pris mon courage à deux mains et, un jour d’un mois d’août, je suis allé à Bad Lauterberg, nom actuel de la ville de mon histoire. J’ai retrouvé l’auberge où Henri et Adeline s’étaient rencontrés, il y a trois cents ans… Tout y était, même les bois qui tenaient les cloisons à l’époque. J’y étais donc bien venu, moi aussi, ce 30 avril, lors du Dernier Sabbat. Revenant à ma voiture, je découvre que j’avais franchi une rivière et j’avais tourné à gauche.
+                        </span>
+                    </div>
+                </div>
+                <div class="livre">
+                    <div class="entete_livre">
+                        <img src="img/nue.jpg" alt="Coeur de pierre" class="couverture">
+                    </div>
+                    <div class=titre_livre>
+                        <h3>Covid 19</h3>
+                      
+                        <span class="presentation">
+                            Après le succès d’Enlève le haut ; pour le bas, j’arrive, j’ai voulu poursuivre sur le bondage. Ces histoires sont toutes racontées par la victime, qui décrit, avec tous les détails, sans pudeur, ce qu’elle ressent. Des femmes, qui n’ont pas froid aux yeux, découvrent le plaisir d’être attachée, et la relation très intense avec l’autre que cela provoque.
+                            Quelques nouvelles très courtes présentent des instants de vie. Une jeune fille provoque un copain timide… mais qui bientôt ne l’est plus. Une autre se venge adroitement de son violeur. Lassée d’un copain moqueur, une (presque) gamine se lance dans un quiproquo qui tourne mal. Deux copines tentent un bondage japonais auprès d’un maître, qui n’hésite pas. Bref, de la variété.</span>
+                    </div>
+                </div>
+
+                <div class="livre">
+                    <div class="entete_livre">
+                        <img src="img/claire.jpg" alt="" class="couverture">
+                    </div>
+                    <div class=titre_livre>
+                        <h3>Ma rencontre avec Claire</h3>
+                    
+                        <span class="presentation">
+                            Avez-vous fait l’amour par téléphone ? Avec une agent-secret, ex-pilote de chasse après avoir été bimbo ? Qu’est devenue votre relation quand une autre femme s’est immiscée dans votre vie ? Vous le saurez par ce récit inspiré par trois femmes, dont deux sont agent-secret, et deux s’appellent Claire, ainsi que par l’expérience vécue de Michel Canal (L’éveil de Claire), que je remercie.
+Notre pauvre Éric ne veut pas être bigame, mais il hé-site entre une Lara Croft, toujours entre deux missions, et sa stagiaire aux cheveux blonds et aux yeux noisette, dont le leggin, un peu trop serré, dessine avec merveille la raie des fesses.
+Les deux lui offrent des expériences avancées. Elles ont l’avantage de ne pas être des opérations spéciales, qui, bien évidemment, n’ont jamais existé.</span>
+                    </div>
+                </div>
+
+                <div class="livre">
+                    <div class="entete_livre">
+                        <img src="img/nue.jpg" alt="Gus et ses modèles" class="couverture">
+                    </div>
+                    <div class=titre_livre>
+                        <h3>Je suis nue, attache moi</h3>
+                      
+                        <span class="presentation">
+                            Après le succès d’Enlève le haut ; pour le bas, j’arrive, j’ai voulu poursuivre sur le bondage. Ces histoires sont toutes racontées par la victime, qui décrit, avec tous les détails, sans pudeur, ce qu’elle ressent. Des femmes, qui n’ont pas froid aux yeux, découvrent le plaisir d’être attachée, et la relation très intense avec l’autre que cela provoque.
+Quelques nouvelles très courtes présentent des instants de vie. Une jeune fille provoque un copain timide… mais qui bientôt ne l’est plus. Une autre se venge adroitement de son violeur. Lassée d’un copain moqueur, une (presque) gamine se lance dans un quiproquo qui tourne mal. Deux copines tentent un bondage japonais auprès d’un maître, qui n’hésite pas. Bref, de la variété.</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Nous vous proposons sur Edition999 (V8) : 2957 ebooks gratuits - 3793 avis et 1120 auteurs. <br />
+            La dernière publication proposée est : Le déséquilibre des pouvoirs ?</p>
+    </footer>
+</body>
+
+</html>

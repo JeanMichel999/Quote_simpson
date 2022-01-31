@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Edition999</title>
+</head>
+
+<body>
+    <!-- menu -->
+    <div class="menu">
+        <!-- Lien vers le menu : https://www.cssportal.com/css3-menu-generator/-->
+        <nav id="menu">
+            <input type="checkbox" id="responsive-menu"><label></label>
+            <ul>
+                <li><a class="dropdown-arrow" href="#">Notre catalogue</a>
+                    <ul class="sub-menus">
+                        <li><a href="rubrique.html">Littérature *</a></li>
+                        <li><a href="erotique.html" onclick="verifAge()">Erotique *</a></li>
+                    </ul>
+                </li>
+                <li><a class="dropdown-arrow" href="#">Pour le lecteur</a>
+                    <ul class="sub-menus">
+                        <li><a href="rubrique.html">Lire gratuitement un livre</a></li>
+                        <li><a href="rubrique.html">Nos ebooks les plus téléchargés</a></li>
+                        <li><a href="rubrique.html">Les coups de coeur de la semaine</a> </li>
+                    </ul>
+                </li>
+                <li><a class="dropdown-arrow" href="rubrique.html">Pour les auteurs</a>
+                    <ul class="sub-menus">
+                        <li><a href="rubrique.html">Publier gratuitement son livre</a></li>
+                        <li><a href="rubrique.html">Vos témoignages</a></li>
+                        <li><a href="rubrique.html">Ajouter votre interview</a> </li>
+                        <li><a href="#rubrique.html">Les coups de coeurs</a></li>
+                    </ul>
+                </li>
+                <li><a class="dropdown-arrow" href="#">A propos</a>
+                    <ul class="sub-menus">
+                        <li><a href="rubrique.html">Ebooks gratuits</a></li>
+                        <li><a href="rubrique.html">On parle de nous</a></li>
+                        <li><a href="rubrique.html">Le Forum</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact.html">Nous contacter *</a> </li>
+                <li><a href="http://">A paraitre</a></li>
+                <li><a href="http://">Le Forum</a></li>
+                <li><a href="http://">Besoin d"aide</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="container">
+        <header class="header">
+            <!-- haut de page -->
+            <section id="haut" class="flex">
+                <!-- logo -->
+                <div class="logo" alt="Edition999">
+                    <img src="img/logo.jpg">
+                </div>
+                <!-- rechercher -->
+                <div class="rechercher" alt="rechercher un livre, un auteur...">
+                    <script async src="https://cse.google.com/cse.js?cx=010652756669699993742:mfrbkcywt-i"></script>
+                    <div class="gcse-search"> </div>
+                </div>
+                <!-- publier gratuitement -->
+                <div class="publier" alt="Publier gratuitement son livre">
+                    <a href="#" class="bouton orange">Vous êtes auteur ? <br />Publier gratuitement son livre</a>
+                </div>
+                <a href="login.html" class="se_connecter"><img src="img/icon.png" alt="se connecter"></a>
+            </section>
+        </header>
+    </div>
+    <!-- menu -->
+    <!-- Nouveautés et actualités -->
+    <div class="container">
+        <section id="nouveautes_et_actualites">
+            <h2 class="nouveautes">Nouveautés et Actualités</h2>
+            <div class="livres">
+                <div class="livre" id="livre1">
+                    <div class="entete_livre">
+                        <a href="article.html" title="Les sorcières de Navarre">
+                            <picture><img src="img/sorcieres.jpg" alt="Les sorcières de Navarre" class="couverture">
+                            </picture>
+                        </a>
+                    </div>
+                    <div class=titre_livre>
+                        <h3>Les sorcières de Navarre</h3>
+                        <h4>Philippe Wallon</h4>
+                        <span class="presentation">
+                            Quand a été brûlée la dernière sorcière en France ? Dans les années 1200 ?
+                            Détrompez-vous,
+                            c’était en 1670, sous Louis XIV. Il y a 300 ans, autant dire hier.
+                            Le 24 juin, fête de Saint-Jean, un apprenti-tisserand, Jean-Jacques Bacqué, 16 ans,
+                            surgit à
+                            Lahourcade (près de Pau), bien décidé à le purger de ses sorcières.
+                        </span>
+                    </div>
+                </div>
+                <div class="livre" id="livre2">
+                    <div class="entete_livre">
+                        <a href="#" title="Oie pas vraiment blanche">
+                            <picture><img src="img/oie.jpg" alt="Oie pas vraiment blanche" class="couverture"></picture>
+                        </a>
+                    </div>
+                    <div class=titre_livre>
+                        <h3>Oie pas vraiment blanche</h3>
+                        <h4>Alfred Anchetain</h4>
+                        <span class="presentation">
+                            Béryl, 25 ans, très jolie fille, constate l’échec de son couple. Son mari n’assure pas.
+                            Elle
+                            prend un travail et fait feu de tout bois. Grâce à un boss, elle est cheffe de projet.
+                            Elle
+                            découvre la valeur de ses charmes avec un riche médecin.
+                        </span>
+                    </div>
+                </div>
+                <div class="livre" id="livre3">
+                    <div class="entete_livre">
+                        <picture><img src="img/une_page.jpg" alt="Une page de vie" class="couverture"></picture>
+                    </div>
+                    <div class=titre_livre>
+                        <h3>Une page de vie</h3>
+                        <h4>Emile Zola</h4>
+                        <span class="presentation">
+                            La veilleuse, dans un cornet bleuâtre, brûlait sur la cheminée, derrière un livre, dont
+                            l’ombre noyait toute une moitié de la chambre.
+                        </span>
+                    </div>
+                </div>
+                <div class="livre" id="livre4">
+                    <div class="entete_livre">
+                        <picture><img src="img/grenadine.jpg" alt="Grenadine la petite taupe" class="couverture">
+                        </picture>
+                    </div>
+                    <div class=titre_livre>
+                        <h3>Grenadine la petite taupe - Vacances en Provence</h3>
+                        <h4>Martine Ferrer</h4>
+                        <span class="presentation">
+                            Grenadine part dans de nouvelles aventures, elle décide de se rendre en Provence par les
+                            petits tunnels qu’elle creuse.
+                            De nouveaux amis vont croiser son chemin.
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- citation -->
+    <section id="citation">
+        <div class="citation">
+            "Il n"y a jamais trop de livres ! Il en faut, et encore, et toujours ! C"est par le livre, et non par
+            l"épée, que l"humanité vaincra le mensonge et l"injustice, conquerra la paix finale de la fraternité
+            entre
+            les peuples."" <br />
+            <strong>Emile Zola</strong>
+        </div>
+    </section>
+    <!-- Les plus populaires -->
+    <div class="container">
+        <section id="les_plus_populaire" class="populaire">
+            <h2 class="nouveautes">Les plus populaires</h2>
+            <div class="livres">
+                <div class="livre">
+                    <div class="entete_livre">
+                        <img src="img/tisane.jpg" alt="Une Tisane pour L’Enfer" class="couverture">
+                    </div>
+                    <div class=titre_livre>
+                        <h3>Une Tisane pour L’Enfer</h3>
+                        <h4>Daniel Saint-Jean</h4>
+                        <span class="presentation">
+                            Ce véhicule semblait être sorti des ténèbres, il était arrêté à une intersection, il
+                            ressemblait au cavalier de la mort, comme si Salvador Dalí avait reproduit son œuvre sur
+                            cette camionnette. Ce jour-là la voiture de Monsieur et Madame Kidal se dirigeait vers
+                            ce
+                            croisement.
+                        </span>
+                    </div>
+                </div>
+                <div class="livre">
+                    <div class="entete_livre">
+                        <img src="img/coeur.jpg" alt="Coeur de pierre" class="couverture">
+                    </div>
+                    <div class=titre_livre>
+                        <h3>Coeur de pierre</h3>
+                        <h4>Danielle Bagnis-Dousset</h4>
+                        <span class="presentation">
+                            Dans le bureau de Maître Coquencourt,notaire de province, un passager clandestin observe
+                            et
+                            attend:sur son lit de papiers noircis d’encre, un galet, enlevé à la grève et à son
+                            destin
+                            minéral, s’adresse au lecteur.
+                        </span>
+                    </div>
+                </div>
+
+                <div class="livre">
+                    <div class="entete_livre">
+                        <img src="img/meurtre.jpg" alt="" class="couverture">
+                    </div>
+                    <div class=titre_livre>
+                        <h3>MEURTRES A DAX</h3>
+                        <h4>ALOÏS</h4>
+                        <span class="presentation">
+                            Le capitaine de police Vincent Barbier est heureux de vivre en famille à Dax. Il aime la
+                            tranquillité de la ville à peine troublée certains jours par la clameur s’élevant des
+                            arènes.
+                        </span>
+                    </div>
+                </div>
+
+                <div class="livre">
+                    <div class="entete_livre">
+                        <img src="img/gus.jpg" alt="Gus et ses modèles" class="couverture">
+                    </div>
+                    <div class=titre_livre>
+                        <h3>Gus et ses modèles</h3>
+                        <h4>Bernard Tellez</h4>
+                        <span class="presentation">
+                            Gus Maudi, surveillé dans ses excentricités par Line et Lilia Stanfeld, rencontre Marie
+                            Sophie Leslin dans un appartement à louer, à Paris.
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <section id="citation">
+        <div class="citation">
+            "Le romancier est fait d"un observateur et d"un expérimentateur."<br />
+            <strong>Emile Zola</strong>
+        </div>
+    </section>
+    </div>
+    <div class="container">
+        <!-- Qui sommes nous ?-->
+        <section id="qui_sommes_nous" class="populaire">
+            <h2 class="nouveautes">Qui sommes nous ?</h2>
+            <div class="flex">
+                <div class="edition999 box_arrondi_ombre">
+                    <h4>Edition999</h4>
+                    <p>Nous sommes une association solidaire de 1147 participants
+                        le 5 décembre 2021 à but non lucratif de type loi 1901. Nous nous sommes donnés comme
+                        objectif de partager tous les livres numériques francophones proposés par des auteurs non
+                        rémunérés.</p>
+                </div>
+                <div class="lecture box_arrondi_ombre">
+                    <h4>Lecture gratuite</h4>
+                    <p>Notre bibliothèque de livres numériques (Ebooks) est libre et gratuite. Grâce à des auteurs
+                        bénévoles, l"équipe Edition999 se démène pour publier des textes en français à tous ceux qui
+                        n"ont pas accès à la littérature, sans que l"argent soit une barrière au savoir.</p>
+                </div>
+                <div class="publication box_arrondi_ombre">
+                    <h4>Publication gratuite</h4>
+                    <p>Nos bénévoles optimisent votre livre pour qu"il apparaisse sur Edition999 sans frais avec une
+                        couverture personnalisée, un texte optimisé aux meilleurs formats, une fiche auteur et tous
+                        les services d"une maison d"édition destinés à Tous et pour Tous, gratuitement. Pour que le
+                        livre
+                        quitte
+                        le fond des tiroirs à tout jamais.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <section id="citation">
+        <div class="citation">
+            "La science du beau est une drôlerie inventée par les philosophes pour la plus grande hilarité des
+            artistes." <br />
+            <strong>Emile Zola</strong>
+        </div>
+    </section>
+    <div class="container">
+        <!-- Vos commentaires-->
+        <section id="vos_commentaires" class="populaire">
+            <h2 class="nouveautes">Vos commentaires</h2>
+            <div class="flex">
+                <div class="commentaires__bloc box_arrondi_ombre flex-basis: 30%;">
+                    Jean-Michel<br />
+                    <p>Une nouvelle version retravaillée est disponible dès maintenant. Merci à l’auteure.
+                        Jean-Michel</p>
+                    <a href="#" class="bouton orange">Tu es paysage</a>
+                </div>
+
+                <div class="commentaires__bloc box_arrondi_ombre flex-basis: 30%;">
+                    Corradetti<br />
+                    <p>J’ai bien aimé. Merci.</p>
+                    <a href="#" class="bouton orange">Le nettoyeur</a>
+                </div>
+
+
+                <div class="commentaires__bloc box_arrondi_ombre flex-basis: 30%;">
+                    Corradetti<br />
+                    <p>Très bien le polar. Un bon policier.</p>
+                    <a href="#" class="bouton orange"> Le nettoyeur</a>
+                </div>
+
+
+
+                <div class="commentaires__bloc box_arrondi_ombre flex-basis: 30%;">
+                    Solange T<br />
+                    <p> C’est très drôle, hé bon sang nous en avons besoin, d’humour D’Amour aussi d’ailleurs, fin pas
+                        d’amour d’ailleurs mais d’amour ICI, non ?</p>
+                    <a href="#" class="bouton orange">BOUFFONNERIES</a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Nous vous proposons sur Edition999 (V8) : 2957 ebooks gratuits - 3793 avis et 1120 auteurs. <br />
+            La dernière publication proposée est : Le déséquilibre des pouvoirs ?</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
